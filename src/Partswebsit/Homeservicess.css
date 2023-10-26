@@ -1,0 +1,20 @@
+.bghomeservices{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.bghomeservices h1{
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+
+}
+.bghomeservices .row{
+    justify-content: center;
+
+}
+

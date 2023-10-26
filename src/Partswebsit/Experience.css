@@ -1,0 +1,15 @@
+.bgexperience{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgexperience .row{
+ justify-content: center;
+}
+.bgexperience h1{
+    color: aliceblue;
+    text-align: center;
+}

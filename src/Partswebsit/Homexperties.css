@@ -1,0 +1,17 @@
+.bghomexperties{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.bghomexperties h1{
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+.bghomexperties .row{
+    justify-content: center;
+}

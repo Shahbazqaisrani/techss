@@ -1,0 +1,52 @@
+.bgabouthome{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.bgabouthome h1{
+  text-align: center;
+  color: aliceblue;
+  font-weight: bold;
+}
+img{
+    width: 20rem;
+    height: 25rem;
+}
+.personalinfo{
+    color: aliceblue;
+}
+
+.active{
+    color: rgb(0, 255, 255);
+    background-color: black;
+}
+
+#pills-tab a{
+    position: relative;
+    font-weight: bold;
+    color:aliceblue;
+    text-decoration: none;
+
+}
+#pills-tab a:before{
+    content:"";
+    position: absolute;
+    bottom: 0px;
+    height: 3px;
+    width: 0;
+    background: red;
+    border-radius: 50px;      
+    transition: width 0.3s ease;
+    }
+    #pills-tab a:hover::before{
+        width: 50%;
+    }
+    #pills-tab a:hover{
+        color: aqua;
+    }
