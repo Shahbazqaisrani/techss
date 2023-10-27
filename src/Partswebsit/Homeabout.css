@@ -50,3 +50,30 @@ img{
     #pills-tab a:hover{
         color: aqua;
     }
+    @media only screen and (max-width: 992px){
+            
+        .bgabouthome{
+            height: auto;
+        }
+        .personalinfo{
+            overflow-y: scroll;
+        }
+
+    }
+    @media only screen and (max-width: 768px){
+            
+        .bgabouthome{
+            height: auto;
+        }
+        .personalinfo{
+            overflow-y: scroll;
+        }
+
+    }
+    @media only screen and (max-width: 576px){
+            
+        .personalinfo{
+            overflow-y: scroll;
+        }
+
+    }

@@ -9,7 +9,7 @@ function Experience() {
   return (
     <>
 
-    <div className='bgexperience'>
+    <div className='bgexperience pb-5'>
       <div className="col-10 mx-auto">
         <div className="row">
           <h1>Experience</h1>

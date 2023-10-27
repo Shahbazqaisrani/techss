@@ -9,7 +9,7 @@ function Footer() {
    <div className="bgfooter">
         <div className="col-10 mx-auto">
           <div className="row">
-           <div className="contact col-4">
+           <div className="contact col-lg-4 col-md-6">
             <h1 className='pb-3'>Contact ME</h1>
             <div className="phtl" id='phtl'>
                     <i className="fa-brands fa-telegram fa-2x"></i> <p className='pt-2'> +923433085528</p><br />
@@ -28,11 +28,11 @@ function Footer() {
 </div>
            </div>
 
-           <div className="contform col-lg-8">
+           <div className="contform col-lg-8 col-md-6">
            <div className="form-container">
       <form className="form">
         <div className="form-group">
-          <label for="email">Email</label>
+          <label htmlFor="email">Email</label>
           <input required="" name="email" id="email" type="text"/>
         </div>
         <div className="form-group">

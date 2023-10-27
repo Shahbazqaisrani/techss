@@ -5,8 +5,8 @@ function Ecard(props) {
   return (
    <>
  
- <div class="ecard mx-1 my-1">
-  <p class="c-txt">{props.sk}</p>
+ <div className="ecard mx-1 my-1">
+  <p className="c-txt">{props.sk}</p>
 </div>
 
     </>
