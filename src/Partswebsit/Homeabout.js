@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Homeabout.css'
-import img from '../Images/ssbackground.png'
+import img from '../Images/aboutimage.png'
 import Aboutcard from './Aboutcard';
  import {Link} from 'react-router-dom'
 

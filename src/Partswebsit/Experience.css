@@ -5,9 +5,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 }
-.bgexperience .row{
- justify-content: center;
+.experience{
+    display: flex;
+    justify-content: center;
 }
 .bgexperience h1{
     color: aliceblue;

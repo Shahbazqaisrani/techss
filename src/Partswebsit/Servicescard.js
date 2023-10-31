@@ -5,9 +5,9 @@ function Servicescard(props) {
   return (
     
  
-    <div class="scard">
-    <p class="card-title">{props.title}</p>
-    <p class="small-desc pt-2">
+    <div className="scard">
+    <p className="card-title">{props.title}</p>
+    <p className="small-desc pt-2">
       {props.dis}
     </p>
   
